@@ -10,3 +10,4 @@ const e = t.enums({
 const u = t.union([t.Nil, e]);
 u.dispatch = () => e;
  // this does typecheck!: u.dispatch = () => t.Nil;
+ // also, just changing the order of values in tuple like const u = t.union([e, t.Nil]); typechecks!
