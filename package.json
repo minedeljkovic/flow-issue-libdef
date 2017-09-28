@@ -1,0 +1,21 @@
+{
+  "name": "flow-issue-libdef",
+  "version": "0.0.1",
+  "description": "repository to reproduce flow issue with external libdef",
+  "main": "index.js",
+  "scripts": {
+    "flow": "./node_modules/.bin/flow"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/minedeljkovic/flow-issue-libdef"
+  },
+  "author": "Milos Nedeljkovic",
+  "license": "ISC",
+  "devDependencies": {
+    "flow-bin": "^0.55.0"
+  },
+  "dependencies": {
+    "tcomb": "^3.2.24"
+  }
+}

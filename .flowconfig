@@ -1,0 +1,5 @@
+[libs]
+./flow-interfaces/
+
+[version]
+^0.55.0
